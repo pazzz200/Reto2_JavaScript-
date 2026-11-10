@@ -14,4 +14,4 @@ async function saludar() {
  return "Hola, soy: ";
 }
 console.log(estudiantes[1]);
-saludar().then((v) => console.log(v));
+saludar().catch((v) => console.log(v));
